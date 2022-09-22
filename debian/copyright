@@ -1,0 +1,18 @@
+Package Maintainers:
+  Thorsten Alteholz <debian@alteholz.de> from Tue,  2 Jun 2012 18:00:00 +0200
+  Wesley J. Landaker <wjl@icecavern.net> from Sun,  5 Sep 2004 08:25:33 -0600
+  Emanuele Rocca <ema@debian.org>        from Sun, 16 Nov 2003 17:30:41 +0100
+  Viral Shah <viral@debian.org>          from Fri, 26 Oct 2001 23:04:21 -0600.
+
+Upstream Author: John Walker
+Upstream Homepage: <http://www.fourmilab.ch/random>
+
+Copyright:
+
+  This software is in the public domain.  Permission to use, copy,
+  modify, and distribute this software and its documentation for any
+  purpose and without fee is hereby granted, without any conditions or
+  restrictions.  This software is provided "as is" without express or
+  implied warranty.
+
+(The Debian packaging is released under this same license.)

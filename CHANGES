@@ -1,0 +1,8 @@
+1.1debian
+  Updated documentation and test.
+  Rolled in all previous debian changes.
+  -- Wesley J. Landaker <wjl@icecavern.net>  2007-08-25
+  
+1.0
+  Original Release
+  -- http://www.fourmilab.ch/random/  1998-10-20

@@ -1,0 +1,129 @@
+ent (1.2debian-3) unstable; urgency=medium
+
+  * debian/control: use dh13
+  * debian/control: bump standard to 4.5.0 (no changes)
+  * use fake watch file from Eriberto
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Sun, 22 Nov 2020 16:00:00 +0100
+
+ent (1.2debian-2) unstable; urgency=medium
+
+  * debian/control: use dh11
+  * debian/control: bump standard to 4.2.1 (no changes)
+  * debian/control: add salsa VCS URLs
+  * debian/rules: add hardening flags
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Wed, 12 Dec 2018 19:00:00 +0100
+
+ent (1.2debian-1) unstable; urgency=medium
+
+  * New upstream release (Closes: #774021)
+  * debian/control: bump standard to 3.9.6 (no changes)
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Sat, 13 Jun 2015 15:00:00 +0200
+
+ent (1.1debian-4) unstable; urgency=low
+
+  * debian/control: bump standard to 3.9.5 (no changes)
+  * fix typo in manpage (Closes: #747541)
+    Patch from "D. Joe Anderson" <deejoe@etrumeus.com>
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Sat, 10 May 2014 17:00:00 +0200
+
+ent (1.1debian-3) unstable; urgency=low
+
+  * debian/patches/totalcount.patch: prevent overflow (Closes: #692214)
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Wed, 07 Nov 2012 18:00:00 +0100
+
+ent (1.1debian-2) unstable; urgency=low
+
+  * new maintainer (Closes: #568140)
+  * debian/control: use dehelper 9
+  * debian/control: bump standard to 3.9.3 (no changes)
+  * debian/control: added old Homepage:
+  * debian/rules: move to dh
+  * debian/ent.install use this file for installation
+  * debian/source/format: added
+  * debian/watch: add empty watch file (no more upstream development)
+  * debian/patches: changes moved to patches
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Tue, 05 Jun 2012 18:00:00 +0200
+
+ent (1.1debian-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Remove private definition of log2() function; use the function provided by
+    the C library library instead (closes: #552835).
+  * Add ‘Depends: ${misc:Depends}’.
+
+ -- Jakub Wilk <jwilk@debian.org>  Sat, 17 Jul 2010 18:41:09 +0200
+
+ent (1.1debian-1) unstable; urgency=low
+
+  * New upstream release
+    * All Debian patches rolled in upstream
+    * Now generates documentation with asciidoc, docbook2x
+  * Updated to Debian Policy 3.7.2 (no changes necessary)
+  * Bumped debhelper compatibility up to 5
+  * Removed test stuff from examples; it's now verified during build
+
+ -- Wesley J. Landaker <wjl@icecavern.net>  Sat, 25 Aug 2007 23:54:01 -0600
+
+ent (1.0-6) unstable; urgency=low
+
+  * Compile with -Wall and -Werror
+  * Add missing braces in multi-dimensional array initializer
+  * Update to Policy 3.7.1.0 (no changes necessary)
+  * Clarify packaging license in debian/copyright
+  * More slight manpage fixes, not using txt2man anymore
+  * Fixed up Makefile's clean target a bit
+  * Disabled test target during build; it's unnecessary (closes: #355726)
+  * Allow -h for command line help so we aren't confusing
+
+ -- Wesley J. Landaker <wjl@icecavern.net>  Wed,  3 May 2006 20:08:23 -0600
+
+ent (1.0-5) unstable; urgency=low
+
+  * Fixed package description slightly
+  * Cleaned up debian/rules
+  * Fixed manpage title (ENT -> ent)
+
+ -- Wesley J. Landaker <wjl@icecavern.net>  Tue, 14 Jun 2005 23:34:09 -0600
+
+ent (1.0-4) unstable; urgency=low
+
+  * Acknowledge QA maintainer.
+  * Fixed hyphens in man page
+
+ -- Wesley J. Landaker <wjl@icecavern.net>  Fri, 18 Mar 2005 08:20:35 -0700
+
+ent (1.0-3) unstable; urgency=medium
+
+  * New maintainer (closes: 214925)
+  * Cleaned up debian/dirs and debian/rules
+  * Fixed entest.sh to actually work once installed
+  * Made regression test run during build
+  * Rewrote man page, this time based on ent.html
+  * Removed README.Debian, as it no longer is pertinent
+  * Urgency=medium to try to get these fixes into sarge
+
+ -- Wesley J. Landaker <wjl@icecavern.net>  Sun,  5 Sep 2004 09:36:50 -0600
+
+ent (1.0-2) unstable; urgency=low
+
+  * Maintainer field set to QA group.
+  * Lintian fixes:
+    - Upstream Author(s) in the copyright file
+    - Removed dh_testversion from debian/rules
+    - Standard-versions to 3.6.1
+  * Debhelper compatibility level updated to 4.
+  * Project homepage added in the long description.
+
+ -- Emanuele Rocca <ema@debian.org>  Sun, 16 Nov 2003 17:30:41 +0100
+
+ent (1.0-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #116434)
+
+ -- Viral Shah <viral@debian.org>  Fri, 26 Oct 2001 23:04:21 -0600

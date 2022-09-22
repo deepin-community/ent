@@ -1,0 +1,24 @@
+Source: ent
+Section: science
+Priority: optional
+Maintainer: Thorsten Alteholz <debian@alteholz.de>
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 13)
+	,asciidoc
+	,docbook2x
+Homepage: http://www.fourmilab.ch/random/
+Vcs-Browser: https://salsa.debian.org/alteholz/ent
+Vcs-Git: https://salsa.debian.org/alteholz/ent.git
+
+Package: ent
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: pseudorandom number sequence test program
+ This program applies various tests to sequences of bytes stored in
+ files and reports the results of those tests. The program is useful
+ for those evaluating pseudorandom number generators for encryption and
+ statistical sampling applications, compression algorithms, and other
+ applications where the information density of a file is of interest.
+ .
+ Original Homepage: http://www.fourmilab.ch/random/
+ (Now maintained primarily in Debian.)
